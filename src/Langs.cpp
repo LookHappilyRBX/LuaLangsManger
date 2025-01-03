@@ -24,6 +24,6 @@ using namespace std;
 
 int main()
 {
-	cout << "Hello CMake." << endl;
+	cout << "Hello sb." << endl;
 	return 0;
 }

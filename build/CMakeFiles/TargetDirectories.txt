@@ -1,3 +1,8 @@
 D:/LuaLangsManger/build/CMakeFiles/LuaLangsManger.dir
 D:/LuaLangsManger/build/CMakeFiles/edit_cache.dir
 D:/LuaLangsManger/build/CMakeFiles/rebuild_cache.dir
+D:/LuaLangsManger/build/src/LLM/LMGraphics/CMakeFiles/LMGraphics.dir
+D:/LuaLangsManger/build/src/LLM/LMGraphics/CMakeFiles/edit_cache.dir
+D:/LuaLangsManger/build/src/LLM/LMGraphics/CMakeFiles/rebuild_cache.dir
+D:/LuaLangsManger/build/src/LLM/LMGraphics/CMakeFiles/LMGraphics_autogen_timestamp_deps.dir
+D:/LuaLangsManger/build/src/LLM/LMGraphics/CMakeFiles/LMGraphics_autogen.dir

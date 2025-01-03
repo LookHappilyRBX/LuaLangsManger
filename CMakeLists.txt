@@ -9,10 +9,15 @@ if (POLICY CMP0141)
   set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
 endif()
 
-project ("LuaLangsManger")
-set(LLM_SRC_DIR ${CMAKE_SOURCE_DIR}/src )
+project ("LuaLangsManger" CXX)
+
+set(SRC_DIR ${CMAKE_SOURCE_DIR}/src )
+set(LLM_SRC_DIR ${SRC_DIR}/LLM )
+set(QT_LMG_DIR ${LLM_SRC_DIR}/LMGraphics )
+ add_subdirectory(${QT_LMG_DIR})
+
 # 将源代码添加到此项目的可执行文件。
-add_executable (LuaLangsManger "src/Langs.cpp" "src/Langs.h")
+add_executable (LuaLangsManger "${LLM_SRC_DIR}/Langs.cpp" "${LLM_SRC_DIR}/Langs.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET LuaLangsManger PROPERTY CXX_STANDARD 20)

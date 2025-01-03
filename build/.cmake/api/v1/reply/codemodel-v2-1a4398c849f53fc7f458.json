@@ -1,0 +1,120 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/LLM/LMGraphics",
+					"jsonFile" : "directory-src.LLM.LMGraphics-Debug-44b13fa50b5922c6db7a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src/LLM/LMGraphics",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LuaLangsManger",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "LMGraphics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "LMGraphics::@942af5ea51e478e12a34",
+					"jsonFile" : "target-LMGraphics-Debug-642bf000da6c0a935e4e.json",
+					"name" : "LMGraphics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "LMGraphics_autogen::@942af5ea51e478e12a34",
+					"jsonFile" : "target-LMGraphics_autogen-Debug-f20d7bb0b5c738a2a781.json",
+					"name" : "LMGraphics_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "LMGraphics_autogen_timestamp_deps::@942af5ea51e478e12a34",
+					"jsonFile" : "target-LMGraphics_autogen_timestamp_deps-Debug-092b8d06c5b294692b47.json",
+					"name" : "LMGraphics_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LuaLangsManger::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LuaLangsManger-Debug-8f78f23c615f99bc533a.json",
+					"name" : "LuaLangsManger",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/LuaLangsManger/build",
+		"source" : "D:/LuaLangsManger"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

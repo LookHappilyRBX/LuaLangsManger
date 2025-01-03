@@ -1,5 +1,6 @@
 # ninja log v6
 4	988	7576108716320406	CMakeFiles/LuaLangsManger.dir/src/LangsManger.cpp.obj	8497393b86a0a293
-993	2732	7576108726209040	LuaLangsManger.exe	6a93c86dc866c8d3
+2	843	7576150574504543	CMakeFiles/LuaLangsManger.dir/src/LLM/Langs.cpp.obj	a2051b985f031d0f
+848	2249	7576150582959462	LuaLangsManger.exe	899d32c5adca63b4
 4	1118	7576121981327605	CMakeFiles/LuaLangsManger.dir/src/Langs.cpp.obj	c6c124c056d0e0c7
-1121	2475	7576121992501224	LuaLangsManger.exe	c252e88fe8ca37f
+3	333	7576179931212850	build.ninja	fb2afb7f2c9ec6ae

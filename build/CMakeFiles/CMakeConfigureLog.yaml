@@ -220,3 +220,322 @@ events:
       Microsoft (R) Incremental Linker Version 14.42.34435.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+e)"
+      - "D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+e:36 (find_dependency)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:34 (_qt_internal_find_third_party_dependencies)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:136 (include)"
+      - "D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+e:36 (find_dependency)"
+      - "src/LLM/LMGraphics/CMakeLists.txt:8 (find_package)"
+.cmake:34 (_qt_internal_find_third_party_dependencies)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:136 (include)"
+:
+      source: "D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-8a19l5"
+      binary: "D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-8a19l5"
+    cmakeVariables:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+tch/TryCompile-sjypjv"
+      binary: "D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-sjypjv"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+_64/lib/cmake/Qt6;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDataba      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      VCPKG_INSTALLED_DIR: "D:/LuaLangsManger/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-8a19l5'
+        
+        Run Build Command(s): e:\\vs\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_608e0
+        [1/2] E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_608e0.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_608e0.dir\\ /FS -c D:\\LuaLangsManger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8a19l5\\src.cxx
+        FAILED: CMakeFiles/cmTC_608e0.dir/src.cxx.obj 
+        E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_e2b73.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_e2b73.dir\\ /FS -c D:\\LuaLangsManger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sjypjv\\src.cxx
+        D:\\LuaLangsManger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sjypjv\\src.cxx(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
+        ninja: build stopped: subcommand failed.
+        ninja: build stopped: subcommand failed.
+      exitCode: 1
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:34 (_qt_internal_find_third_party_dependencies)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:136 (include)"
+      - "D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "src/LLM/LMGraphics/CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-jd95dd"
+      binary: "D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-jd95dd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      VCPKG_INSTALLED_DIR: "D:/LuaLangsManger/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-jd95dd'
+        
+        Run Build Command(s): e:\\vs\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_f039b
+        [1/2] E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_f039b.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_f039b.dir\\ /FS -c D:\\LuaLangsManger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jd95dd\\CheckFunctionExists.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_f039b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f039b.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_f039b.exe /implib:cmTC_f039b.lib /pdb:cmTC_f039b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_f039b.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_f039b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f039b.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_f039b.exe /implib:cmTC_f039b.lib /pdb:cmTC_f039b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f039b.dir\\CheckFunctionExists.cxx.obj /out:cmTC_f039b.exe /implib:cmTC_f039b.lib /pdb:cmTC_f039b.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f039b.dir/intermediate.manifest CMakeFiles\\cmTC_f039b.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib”\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:34 (_qt_internal_find_third_party_dependencies)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:136 (include)"
+      - "D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "src/LLM/LMGraphics/CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-gycm2k"
+      binary: "D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-gycm2k"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      VCPKG_INSTALLED_DIR: "D:/LuaLangsManger/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-gycm2k'
+        
+        Run Build Command(s): e:\\vs\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_b8a4e
+        [1/2] E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_b8a4e.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_b8a4e.dir\\ /FS -c D:\\LuaLangsManger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gycm2k\\CheckFunctionExists.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_b8a4e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b8a4e.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_b8a4e.exe /implib:cmTC_b8a4e.lib /pdb:cmTC_b8a4e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_b8a4e.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_b8a4e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b8a4e.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_b8a4e.exe /implib:cmTC_b8a4e.lib /pdb:cmTC_b8a4e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b8a4e.dir\\CheckFunctionExists.cxx.obj /out:cmTC_b8a4e.exe /implib:cmTC_b8a4e.lib /pdb:cmTC_b8a4e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_b8a4e.dir/intermediate.manifest CMakeFiles\\cmTC_b8a4e.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib”\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:34 (_qt_internal_find_third_party_dependencies)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:136 (include)"
+      - "D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "src/LLM/LMGraphics/CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-90vd09"
+      binary: "D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-90vd09"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      VCPKG_INSTALLED_DIR: "D:/LuaLangsManger/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-90vd09'
+        
+        Run Build Command(s): e:\\vs\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_7b5ee
+        [1/2] E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_7b5ee.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_7b5ee.dir\\ /FS -c D:\\LuaLangsManger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-90vd09\\CheckFunctionExists.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_7b5ee.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7b5ee.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_7b5ee.exe /implib:cmTC_7b5ee.lib /pdb:cmTC_7b5ee.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_7b5ee.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_7b5ee.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7b5ee.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_7b5ee.exe /implib:cmTC_7b5ee.lib /pdb:cmTC_7b5ee.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7b5ee.dir\\CheckFunctionExists.cxx.obj /out:cmTC_7b5ee.exe /implib:cmTC_7b5ee.lib /pdb:cmTC_7b5ee.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_7b5ee.dir/intermediate.manifest CMakeFiles\\cmTC_7b5ee.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib”\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:34 (_qt_internal_find_third_party_dependencies)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:136 (include)"
+      - "D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "src/LLM/LMGraphics/CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-902njk"
+      binary: "D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-902njk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      VCPKG_INSTALLED_DIR: "D:/LuaLangsManger/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/dev/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-902njk'
+        
+        Run Build Command(s): e:\\vs\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_c1e41
+        [1/2] E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_c1e41.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_c1e41.dir\\ /FS -c D:\\LuaLangsManger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-902njk\\CheckFunctionExists.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_c1e41.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c1e41.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_c1e41.exe /implib:cmTC_c1e41.lib /pdb:cmTC_c1e41.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_c1e41.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_c1e41.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c1e41.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_c1e41.exe /implib:cmTC_c1e41.lib /pdb:cmTC_c1e41.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c1e41.dir\\CheckFunctionExists.cxx.obj /out:cmTC_c1e41.exe /implib:cmTC_c1e41.lib /pdb:cmTC_c1e41.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_c1e41.dir/intermediate.manifest CMakeFiles\\cmTC_c1e41.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib”\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:181 (find_package)"
+      - "D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "src/LLM/LMGraphics/CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-ng82qn"
+      binary: "D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-ng82qn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      VCPKG_INSTALLED_DIR: "D:/LuaLangsManger/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/dev/vcpkg"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-ng82qn'
+        
+        Run Build Command(s): e:\\vs\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_190bb
+        [1/2] E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STDATOMIC  /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_190bb.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_190bb.dir\\ /FS -c D:\\LuaLangsManger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ng82qn\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_190bb.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_190bb.dir\\src.cxx.obj  /out:cmTC_190bb.exe /implib:cmTC_190bb.lib /pdb:cmTC_190bb.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "E:/VS/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:181 (find_package)"
+      - "D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "src/LLM/LMGraphics/CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-j293pk"
+      binary: "D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-j293pk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;E:/QT/6.8.1/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+      VCPKG_INSTALLED_DIR: "D:/LuaLangsManger/build/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/dev/vcpkg"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/LuaLangsManger/build/CMakeFiles/CMakeScratch/TryCompile-j293pk'
+        
+        Run Build Command(s): e:\\vs\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_c5499
+        [1/2] E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STDATOMIC  /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_c5499.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_c5499.dir\\ /FS -c D:\\LuaLangsManger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j293pk\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\VS\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_c5499.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\VS\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c5499.dir\\src.cxx.obj  /out:cmTC_c5499.exe /implib:cmTC_c5499.lib /pdb:cmTC_c5499.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
+...

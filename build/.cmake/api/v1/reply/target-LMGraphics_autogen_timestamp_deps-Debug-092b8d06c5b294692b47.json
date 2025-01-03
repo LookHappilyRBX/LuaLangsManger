@@ -1,0 +1,31 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/LLM/LMGraphics/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "LMGraphics_autogen_timestamp_deps::@942af5ea51e478e12a34",
+	"isGeneratorProvided" : true,
+	"name" : "LMGraphics_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/LLM/LMGraphics",
+		"source" : "src/LLM/LMGraphics"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

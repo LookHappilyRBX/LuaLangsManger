@@ -1,0 +1,3 @@
+D:/LuaLangsManger/build/CMakeFiles/LuaLangsManger.dir
+D:/LuaLangsManger/build/CMakeFiles/edit_cache.dir
+D:/LuaLangsManger/build/CMakeFiles/rebuild_cache.dir
